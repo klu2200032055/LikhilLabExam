@@ -28,12 +28,12 @@ public class ClientDemo {
         Transaction transaction = session.beginTransaction();
 
         Client client1 = new Client();
-        client1.setName("John Doe");
+        client1.setName("Ram");
         client1.setGender("Male");
         client1.setAge(30);
         client1.setLocation("New York");
-        client1.setEmail("john.doe@example.com");
-        client1.setMobileNumber("1234567890");
+        client1.setEmail("Ram@gmail.com");
+        client1.setMobileNumber("8106178456");
 
         Client client2 = new Client();
         client2.setName("Jane Smith");
