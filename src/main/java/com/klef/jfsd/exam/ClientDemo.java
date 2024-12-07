@@ -30,18 +30,18 @@ public class ClientDemo {
         Client client1 = new Client();
         client1.setName("Ram");
         client1.setGender("Male");
-        client1.setAge(30);
-        client1.setLocation("New York");
+        client1.setAge(21);
+        client1.setLocation("Guntur");
         client1.setEmail("Ram@gmail.com");
         client1.setMobileNumber("8106178456");
 
         Client client2 = new Client();
-        client2.setName("Jane Smith");
+        client2.setName("Sita");
         client2.setGender("Female");
-        client2.setAge(25);
-        client2.setLocation("California");
-        client2.setEmail("jane.smith@example.com");
-        client2.setMobileNumber("0987654321");
+        client2.setAge(18);
+        client2.setLocation("Vijaywada");
+        client2.setEmail("Sita@gmail.com");
+        client2.setMobileNumber("81061987456");
 
         session.save(client1);
         session.save(client2);
